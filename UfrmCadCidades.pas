@@ -77,7 +77,7 @@ begin
 
   desativarControles;
   altera := False;
-  cbUF.ItemIndex := 24;
+  qryCidadesESTADO.Value := 'SP';
 end;
 
 procedure TfrmCadCidades.btnAlterarClick(Sender: TObject);
