@@ -1,0 +1,5 @@
+O comando vai executar mas vai trazer todos clientes pois não esta vendo uma ligação de clientes com a subquery do where para funcionar como o desejado precisei apelidar as tabelas e fazer a ligação através do campo código cidade que tem presente nas duas tabelas sql corrigido:
+
+SELECT cl.Nome, cl.cod_cidade
+FROM Clientes cl 
+WHERE EXISTS (SELECT 1 FROM Cidades ci WHERE Nome = 'TUPA' and cl.COD_CIDADE = ci.codigo);

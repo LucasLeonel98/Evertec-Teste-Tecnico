@@ -1,0 +1,1 @@
+De acordo com sql, apresentado eu optaria por criação de indices na tabela de clientes, criaria o índice no Cod_cidade e nome ja que nesta query não cálculos no sql, sub select ou outras coisas que deixaria lento, e também ja esta pesquisando pelo inicio do nome

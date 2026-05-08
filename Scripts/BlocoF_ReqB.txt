@@ -1,0 +1,2 @@
+O uso de IA pode ocorrer falhas de segurança, ao pegar o código que ela gera não fazer os devidos testes e analises, pode deixar uma falha no sistema que futuramente pode ser explorada por alguém mal intencionada.
+Para poder mitigar esses problemas, e bom que todo o código que é colocado no sistema passe por analise de mais de uma pessoa, para assegurar a sua qualidade e integridade do sistema. 

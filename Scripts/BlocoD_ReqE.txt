@@ -1,0 +1,12 @@
+O comando não irá funcionar, o having e para ser usado com funções de agregação como o count por exemplo e é mais utilizada para trazer condições numéricas exemplo quero trazer os estados com mais de 1000 cidades como sql abaixo:
+
+SELECT Estado, COUNT(*) 
+FROM Cidades 
+GROUP BY Estado 
+HAVING COUNT(*) > 1000
+
+Mas para o que se espera do sql que ele traga as cidades do estado de SP basta trocar o having por where sql corrigido:
+
+SELECT Codigo_Cidade, Nome 
+FROM Cidades 
+where Estado = 'SP';

@@ -1,0 +1,4 @@
+Comando vai ser executado sem apresentar erros porém ele não vai ter o efeito desejado, não irá apagar os registros neste intervalo, para funcionar tem que inverter o 200 e o 100 de lugar sql corrigido:
+
+DELETE FROM Clientes 
+WHERE Codigo_Cliente BETWEEN 100 AND 200;

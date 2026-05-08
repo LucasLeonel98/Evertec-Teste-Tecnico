@@ -1,0 +1,4 @@
+O comando não vai funcionar porque esta faltando preencher um campo Cep_Final e foi passado somente ate o campo Cep_Inicial o comando esta esperando 4 valores mas está recebendo somente 3 sql ajustado:
+
+INSERT INTO Cidades (Nome, Estado, Cep_Inicial, Cep_Final) 
+VALUES ('Tupa', 'SP', '17600000', '17600999');

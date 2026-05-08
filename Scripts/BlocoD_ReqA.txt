@@ -1,0 +1,4 @@
+Este comando não vai funcionar pois está faltando colocar o campo c.nome na clausula group by ja que esta utilizando uma função de agregação que é o count, quando se essas funções os campos que não estão sendo usados na agregação tem que fazer parte do group by sql corrigido:
+SELECT c.Codigo_Cidade, c.Nome, COUNT(*) AS Total 
+FROM Clientes c 
+GROUP BY c.Codigo_Cidade, c.Nome;

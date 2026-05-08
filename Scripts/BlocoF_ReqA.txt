@@ -1,0 +1,1 @@
+Usei IA sim neste teste, para me ajudar a fazer as procedures do banco de dados sql server, e também utilizei para criar os dos fictícios para os testes.

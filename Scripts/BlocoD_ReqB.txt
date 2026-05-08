@@ -1,0 +1,6 @@
+Este comando não vai rodar devido ao erro que foi utilizado apelido na tabela cidades foi dado o apelido ci ja na clausula do where foi utilizado o nome cidade que não existe o sql server não encontra esta tabela pois neste contexto existe ci, basta troca-lo para ci.Estado = 'SP' sql corrigido:
+
+SELECT c.Nome, ci.Nome AS Cidade 
+FROM Clientes c 
+INNER JOIN Cidades ci ON c.Codigo_Cidade = ci.Codigo_Cidade 
+WHERE ci.Estado = 'SP';
